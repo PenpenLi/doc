@@ -1,0 +1,9 @@
+
+local QTutorialEvent = class("QTutorialEvent")
+
+QTutorialEvent.EVENT_WEAR_EQUIPMENT = "EVENT_WEAR_EQUIPMENT"
+QTutorialEvent.EVENT_SKILL_SUCCESS = "EVENT_SKILL_SUCCESS"
+QTutorialEvent.EVENT_GOLD_BUYONE = "EVENT_GOLD_BUYONE"
+QTutorialEvent.EVENT_HERO_BREAKTHROUGH = "EVENT_HERO_BREAKTHROUGH"
+
+return QTutorialEvent
